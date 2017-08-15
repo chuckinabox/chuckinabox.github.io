@@ -1,0 +1,13 @@
+a {
+    text-decoration: none;
+}
+
+.main-body {
+  background-image: url('../images/sky.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width:100%;
+  text-align: center;
+  color: #DDDDDD;
+}
