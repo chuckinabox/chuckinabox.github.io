@@ -4,7 +4,7 @@ a {
 }
 
 .main-body {
-  background-image: url('../images/sky.png');
+  background-image: url('../images/skyLowRes.png');
   background-size:cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -14,13 +14,18 @@ a {
 }
 
 .main-body .row:first-child {
-    margin-top:20%;
+  margin-top: 10%;
 }
 
 .photo-row img {
   margin-top: 10%;
-  height: 210px;
-  width: 180px;
+  height: 220px;
+  width: 170px;
+}
+
+.project-row img {
+  height: 150px;
+  width: 250px;
 }
 
 @media (max-width: 550px) {
@@ -28,5 +33,13 @@ a {
     height: 20vh;
     width: 25vw;
   }
+  .project-row img {
+    height: 20vh;
+    width: 40vw;
+  }
+  .contact-me {
+    padding-top: 50%;
+  }
+
 
 }
