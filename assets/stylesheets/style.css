@@ -1,17 +1,28 @@
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .main-body {
-  background-image: url('../images/skyLowRes.png');
-  background-size:cover;
+  background-image: url("../images/skyLowRes.png");
+  background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
   height: auto;
-  width:100vw;
+  width: 100vw;
   text-align: center;
-  color: #DDDDDD;
+  color: #dddddd;
+}
+
+.other-body {
+  background-color: #768d93;
+  background-size: cover;
+  min-height: 50vh;
+  height: auto;
+  width: 100vw;
+  text-align: center;
+  color: #dddddd;
+  border-top: 2px solid black;
 }
 
 .main-body .row:first-child {
@@ -38,5 +49,4 @@ a {
     height: 20vh;
     width: 40vw;
   }
-
 }
